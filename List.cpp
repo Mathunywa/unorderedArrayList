@@ -14,7 +14,7 @@ List::~List(void)
 }
 
 bool List::IsEmpty () { return size==0;}
-bool List::IsFull () {return (size == MaxSize); }
+bool List::IsFull () {return (size == MaxSize); } //to check if the array have content
 
 void List::Insert (DataType e)
 {
@@ -56,5 +56,5 @@ void List::ShowData ()
     cout << Item[index] << "   ";
     cout << endl;
 	
-}
+}// to show the data in the array
 
